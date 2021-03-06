@@ -11,12 +11,17 @@
             margin: auto;
             display: flex;
             justify-content: center;
+            font-family: Cambria;
         }
 
         div {
             width: 40%;
             border-radius: 5px;
             padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
         }
 
         input[type=text],
@@ -48,6 +53,7 @@
 </head>
 <body>
 <div>
+    <h1>Sign Up</h1>
     <form action="action.php" method="post">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Your name..">
@@ -58,7 +64,7 @@
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Your password..">
 
-        <input type="submit" name="register" value="Submit">
+        <input type="submit" name="register" value="Sign Up">
         <p>Already have an account? <a href="login.html">Login</a></p>
     </form>
 </div>
